@@ -1,0 +1,253 @@
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Averta,sans-serif;
+}
+
+body{
+  color:#514949;
+}
+
+.orange-links{
+  text-decoration: none;
+  color: #E7332B;
+}
+
+header{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./Images/home-image/hero-bg.svg);
+}
+
+.header-image{
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.intro-zuri-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 1rem 0px 1rem;
+  padding-bottom: 70px;
+}
+
+.intro-zuri-article h1{
+  margin: 110px 0rem 30px 0px;
+  font-size: 1.9rem;
+  font-family: averta, "san-serif";
+}
+
+.intro-zuri-article p{
+  margin: 10px 0px 72px 0px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 24px;
+  max-width: 700px;
+}
+
+.pages-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.enroll-link{
+  background-color: #E7332B;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  /* margin-bottom: 25px; */
+  text-align: center;
+}
+
+.hire-talents-link{
+  border: 1px solid #E7332B;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  color: #E7332B;
+  text-align: center;
+}
+
+.by-zuri-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 80px;
+}
+
+.by-zuri-article h4{
+  color: #E7332B;
+  font-weight: 500;
+}
+
+.by-zuri-article p{
+  margin: 20px 0px 0px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height:35px;
+}
+
+.program-articles{
+  margin: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-article{
+  margin: 70px 0px 0px 0px;
+  padding: 60px 30px 100px 30px;
+  background-image: url(./Images/home-image/hero-bg.svg);
+}
+
+.left-dotted-image img{
+  display: none;
+}
+
+.program-article img{
+  margin-bottom: 40px;
+}
+
+.program-article p{
+  line-height: 25px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+} 
+
+.program-article a{
+  margin: 30px 0px 30px 0px;
+  text-decoration: none;
+  color: #E7332B;
+  font-size: 1.2rem;
+}
+
+.greater-than{
+  font-size: 0.98rem;
+  font-weight: 900;
+}
+
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 250px;
+  text-align: center;
+}
+
+footer section h2{
+  font-size: 1.8rem;
+  color: #514949;
+  /* text-align: center; */
+}
+
+.image-section img{
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+
+.links-section div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-section div a{
+  margin: 15px 0px 15px 0px;
+  font-size: 1.1rem;
+}
+
+.contact-section{
+  margin: 20px 0px 20px 0px;
+}  
+
+.contact-section p{
+  margin:5px 0px 20px 0px;
+}
+
+.social-media-section{
+  margin: 20px 0px 70px 0px;
+}
+
+.social-media-section div img{
+  width: 20px;
+  margin-left: 5px;
+}
+
+hr{
+  margin: 1rem!important;
+}
+
+.copyright p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 90px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media  (min-width: 48rem){
+  .pages-links{
+    flex-direction: row;
+  }
+
+  .intro-zuri-article{
+    padding-bottom: 270px;
+  }
+
+}
+
+@media  (min-width: 970px){
+  .program-articles{
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .main-footer{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 70px;
+  }
+
+  .contact-section{
+    margin-top: 0px;
+  }
+
+  .social-media-section{
+    margin-top: 0px;
+  }
+}
+
+@media  (min-width: 970px){
+  .left-dotted-image img{
+    /* display: block; */
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+    vertical-align: middle;
+    border-style: none;
+  }
+}
